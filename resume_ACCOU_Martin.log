@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.16)  10 SEP 2023 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.16)  16 SEP 2023 10:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -820,14 +820,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 52.
+(Font)              <12> on input line 53.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-/Users/accoumar/Desktop/resume_ACCOU_Martin/resume_ACCOU_Martin.tex:71: Missing { inserted.
+/Users/accoumar/Desktop/resume_ACCOU_Martin/resume_ACCOU_Martin.tex:76: Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.71 \end{itemize}}
+l.76 \end{itemize}}
                    
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -835,12 +835,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 71.
+LaTeX Warning: Command \` invalid in math mode on input line 76.
 
-/Users/accoumar/Desktop/resume_ACCOU_Martin/resume_ACCOU_Martin.tex:71: Missing } inserted.
+/Users/accoumar/Desktop/resume_ACCOU_Martin/resume_ACCOU_Martin.tex:76: Missing } inserted.
 <inserted text> 
                 }
-l.71 \end{itemize}}
+l.76 \end{itemize}}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -851,11 +851,11 @@ my insertion and my current dilemma will both disappear.
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/accoumar/Desktop/resume_ACCOU_Martin/martin.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
  (/Users/accoumar/Desktop/resume_ACCOU_Martin/resume_ACCOU_Martin.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 
 
 Package rerunfilecheck Warning: File `resume_ACCOU_Martin.out' has changed.
@@ -867,18 +867,18 @@ Package rerunfilecheck Info: Checksums for `resume_ACCOU_Martin.out':
 (rerunfilecheck)             After:  36E49158CAB664772FD53C31B82FDC19;370.
  ) 
 Here is how much of TeX's memory you used:
- 32607 strings out of 492616
- 595406 string characters out of 6129481
- 658790 words of memory out of 5000000
+ 32611 strings out of 492616
+ 595458 string characters out of 6129481
+ 659712 words of memory out of 5000000
  36121 multiletter control sequences out of 15000+600000
- 579339 words of font info for 67 fonts, out of 8000000 for 9000
+ 579601 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,65p,856b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on /Users/accoumar/Desktop/resume_ACCOU_Martin/resume_ACCOU_Martin.pdf (1 page, 351849 bytes).
+Output written on /Users/accoumar/Desktop/resume_ACCOU_Martin/resume_ACCOU_Martin.pdf (1 page, 358345 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  17938 words of extra memory for PDF output out of 20736 (max. 10000000)
 
