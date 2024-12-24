@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.27)  24 DEC 2024 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.27)  24 DEC 2024 17:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -537,7 +537,8 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 44.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 44.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./resume_ACCOU_Martin.aux)
+)
+No file resume_ACCOU_Martin.aux.
 \openout1 = `resume_ACCOU_Martin.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -559,7 +560,7 @@ LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 44.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmss.fd
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -691,7 +692,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--46
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 53.
+(Font)              <12> on input line 54.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
@@ -714,15 +715,15 @@ Package rerunfilecheck Info: Checksums for `resume_ACCOU_Martin.out':
 (rerunfilecheck)             After:  02FD91ECD41D1CDDAB8F771A37A5DB83;370.
  ) 
 Here is how much of TeX's memory you used:
- 25743 strings out of 473584
- 491114 string characters out of 5728334
+ 25740 strings out of 473584
+ 491030 string characters out of 5728334
  1955905 words of memory out of 5000000
- 48154 multiletter control sequences out of 15000+600000
+ 48153 multiletter control sequences out of 15000+600000
  607495 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,12n,115p,1042b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on resume_ACCOU_Martin.pdf (1 page, 2340624 bytes).
+Output written on resume_ACCOU_Martin.pdf (1 page, 2340331 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
