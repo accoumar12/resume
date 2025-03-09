@@ -261,6 +261,9 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
+INPUT ./resume_ACCOU_Martin.aux
+INPUT ./resume_ACCOU_Martin.aux
+INPUT resume_ACCOU_Martin.aux
 OUTPUT resume_ACCOU_Martin.aux
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmss.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -320,7 +323,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-mvs.cfg
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
@@ -338,7 +340,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss8.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso12.pfb
