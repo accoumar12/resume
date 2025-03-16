@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741540120.07421 "/home/maccou/perso/resume/resume_ACCOU_Martin.tex" "resume_ACCOU_Martin.pdf" "resume_ACCOU_Martin" 1741540121.03746 2
-  "/home/maccou/perso/resume/resume_ACCOU_Martin.tex" 1741540118.95309 5651 84e505df8d36ac71f10bd4bf1597e2f6 ""
+["pdflatex"] 1742157003.18361 "/home/maccou/perso/resume/resume_ACCOU_Martin.tex" "resume_ACCOU_Martin.pdf" "resume_ACCOU_Martin" 1742157004.05408 2
+  "/home/maccou/perso/resume/resume_ACCOU_Martin.tex" 1742157001.82316 5790 54b3a20f6f7daa4cfe52aee0cffd1b34 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -191,9 +191,9 @@
   "moderncvcompatibility.sty" 1720947961 4245 1498659fdf196139359d2a25fd24c885 ""
   "moderncviconsmarvosym.sty" 1720947961 12199 727c2f0c4413851c7bf5f9d330f0e60d ""
   "moderncvstyleclassic.sty" 1720947961 13261 b70e7a1ff692d307c674606bdf05fd67 ""
-  "resume_ACCOU_Martin.aux" 1741540120.90309 533 b261ca78eca94427e8ae64f736cabc04 "pdflatex"
-  "resume_ACCOU_Martin.out" 1741540120.90309 370 02fd91ecd41d1cddab8f771a37a5db83 "pdflatex"
-  "resume_ACCOU_Martin.tex" 1741540118.95309 5651 84e505df8d36ac71f10bd4bf1597e2f6 ""
+  "resume_ACCOU_Martin.aux" 1742157003.92316 533 b261ca78eca94427e8ae64f736cabc04 "pdflatex"
+  "resume_ACCOU_Martin.out" 1742157003.92316 370 02fd91ecd41d1cddab8f771a37a5db83 "pdflatex"
+  "resume_ACCOU_Martin.tex" 1742157001.82316 5790 54b3a20f6f7daa4cfe52aee0cffd1b34 ""
   "tweaklist.sty" 1720947961 1966 8ce3a021c0bc6369db88faeddf828d71 ""
   (generated)
   "resume_ACCOU_Martin.aux"
