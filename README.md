@@ -1,3 +1,3 @@
 ## Introduction
 
-My resume (in English).
+My resume (written in English).
