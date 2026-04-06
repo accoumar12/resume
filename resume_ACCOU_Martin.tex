@@ -1,5 +1,7 @@
 \documentclass[12pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
-\usepackage[utf8]{inputenc}  
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome5}
+\usepackage{changepage}
 \moderncvtheme[blue]{classic}     
 \nopagenumbers{}                             
 \AtBeginDocument{\recomputelengths}
@@ -11,29 +13,22 @@
 %\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 
 % adjust the page margins
-\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+\usepackage[top=0.8cm, bottom=0.8cm, left=1.2cm, right=1.2cm]{geometry}
 % Largeur de la colonne pour les dates
 \setlength{\hintscolumnwidth}{2.9cm}
 
-\setlength{\makecvtitlenamewidth}{9cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\setlength{\makecvtitlenamewidth}{12.5cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\firstname{Martin}
+\firstname{Martin }
 \familyname{ACCOU}
-\title{AI/ML Engineer}                        
-\address{}{18 Rue de Saint-Omer}{62570, Wizernes}   
+\title{AI Engineer | 3D Data \& Software}                        
+\address{London}{}{}
 \mobile{+33 7 51 63 51 88}                   
-\email{martin.accou@icloud.com} 
-\extrainfo{French - 24 years old}
-\usepackage{marvosym}
+\email{martin.accou@icloud.com}
+\extrainfo{French -- 25 years old}
 
-\usepackage{fontawesome5}
-
-\faGrin{ maccou-portfolio.netlify.app}
-\faLinkedin{ linkedin.com/in/martin-accou}
-\faGithub{ github.com/accoumar12}
-
-\photo[64pt][0pt]{martin.png}                  % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\photo[64pt][0pt]{martin.jpg}                  % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 
 \AfterPreamble{\hypersetup{
   pdfauthor={Martin ACCOU},
@@ -42,54 +37,62 @@
 }}
 
 \begin{document}
+\vspace*{-1.2cm}
 
+{\small\makebox[\textwidth][c]{%
+\href{https://portfolio.accoumar.fr}{\faGlobe\enspace portfolio.accoumar.fr}\hspace{1.8em}%
+\href{https://linkedin.com/in/martin-accou}{\faLinkedin\enspace linkedin/martin-accou}\hspace{1.8em}%
+\href{https://github.com/accoumar12}{\faGithub\enspace github/accoumar12}%
+}}\\[-1.1em]
+
+\vspace*{4mm}
+
+\begin{adjustwidth}{0.8cm}{0cm}
 \makecvtitle
+\end{adjustwidth}
+
+\vspace*{-8mm}
 
 \section{Work experience}
-\cventry{2024 - Present}{ML engineer}{\href{https://d3s.ai}{D3S}}{Grenoble}{France}{\begin{itemize}
-    \item Developed a 3D mesh classifier for automatic labeling of \href{https://en.wikipedia.org/wiki/Computer-aided_design}{Computer-Aided Designs (CAD)}, leveraging a customized transformer-based architecture.
-    \item \href{https://maccou-blog.netlify.app/building-a-3-d-instance-segmentation-model-for-cad-designs/}{Developed a 3D instance segmentation model tailored for CAD designs.}
-    \item Developed a software tool to facilitate the labeling of CAD designs triplets for \href{https://maccou-blog.netlify.app/building-a-3-d-similarity-model-for-cad-designs/}{training an unsupervised classification model using triplet loss.}
-    \item Optimized the \href{https://dev.opencascade.org/}{Open Cascade} linker of our 3D analytics library, written in C.
+\cventry{\href{https://www.physicsx.ai/}{PhysicsX}}{AI engineer}{2025--present}{London}{England}{\begin{itemize}
+    \item Developed a generative geometry model capable of producing novel aerodynamic shapes (aircraft, automotive) optimised for user-defined performance conditions.
+    \item Active contributor to shared internal libraries covering surrogate modelling frameworks and geometry generation tooling.
+\end{itemize}}
+\cventry{\href{https://d3s.ai}{D3S}}{AI engineer}{2024--2026}{Grenoble}{France}{\begin{itemize}
+    \item Developed \href{https://blog.accoumar.fr/building-a-3-d-similarity-model-for-cad-designs/}{a 3D mesh classifier} for automatic labeling of \href{https://en.wikipedia.org/wiki/Computer-aided_design}{Computer-Aided Designs (CAD)}. Integrated in our costing platform, processing millions of meshes for similarity.
+    \item Developed \href{https://blog.accoumar.fr/building-a-3-d-instance-segmentation-model-for-cad-designs/}{a 3D instance segmentation model tailored for CAD designs.} Achieved 95\% accuracy, replacing heuristics methods with much faster performance. 
+    \item Connected our 3D analytics library to our costing platform.
     \end{itemize}}
-\cventry{2023, 6 months}{Research data scientist}{\href{https://reuniwatt.com/en}{Reuniwatt}}{Saint-Pierre}{France}{\begin{itemize}
-    \item Post-processed day-ahead irradiance forecasts and benchmarked various time series models, including Kalman filter, GBM, RF, SVR, MLP, N-BEATS, and LSTM.
-    \item Gained exposure to production challenges and Machine Learning Operations (MLOps).
-    \item Worked in an agile team, contributing to sprint planning and agile development.
+\cventry{\href{https://reuniwatt.com/en}{Reuniwatt}}{Research data scientist}{2023 (6 mo.)}{Saint-Pierre}{France}{\begin{itemize}
+    \item Improved solar irradiance forecasts using machine learning and time series models. Enhanced the company’s weather prediction model by 10\%.
     \end{itemize}}
-\cventry{2022, 6 months}{Digital simulation engineer}{\href{https://www.defense.gouv.fr/dga/dga-techniques-aeronautiques}{DGA Technique aéronautiques}}{Balma}{France}{\begin{itemize}
-    \item Studied parachute behavior during cargo dropping using FEM and CFD.
-    \item Gained experience in digital simulation using \href{https://lsdyna.ansys.com/}{LS-DYNA}.
+\cventry{\href{https://www.defense.gouv.fr/dga/dga-techniques-aeronautiques}{DGA}}{Digital simulation engineer}{2022 (6 mo.)}{Balma}{France}{\begin{itemize}
+    \item Studied parachute behavior during cargo dropping using FEM and CFD (\href{https://en.wikipedia.org/wiki/LS-DYNA}{LS-DYNA}).
 \end{itemize}}
 \section{Education}
-\cventry{2020-2024}{Master of Science}{\href{https://www.isae-supaero.fr/en}{ISAE-SUPAERO (top 5 eng. school)}}{Toulouse}{France}{
+\cventry{\href{https://www.isae-supaero.fr/en}{ISAE-SUPAERO}}{Master of Science}{2020--2024}{Toulouse}{France (top 5 engineering school)}{
 \begin{itemize}
-    \item $1^{st}$ and $2^{nd}$ year: general engineering courses in computer science, applied mathematics, thermodynamics,  physics and mechanics.
-    \item $3^{rd}$ year: major in data science and data engineering, minor in complex systems modeling and simulation: advanced statistics, HPC (OpenMP, MPI, CUDA).
-    % \item Elective courses : mathematics for space applications, general relativity and cosmology, geophysical flows.
+    \item Started out passionate about aeronautical engineering and was first drawn to digital simulation. After experiencing the long development cycles and the inertia of traditional aerospace manufacturers, I turned toward data science, where I specialized. GPA 4.17 (Top 5\%).
  \end{itemize}}  % arguments 3 to 6 can be left empty
-\cventry{2022}{Erasmus+ Semester}{\href{https://www.polimi.it/en}{Politecnico di Milano (top 3 eng. school)}}{Milan}{Italy}{\begin{itemize}
-    \item Relevant coursework: software development (Vue.js, Nuxt.js), reinforcement learning, space physics, aeroacoustics and multibody system dynamics.
+\cventry{\href{https://www.polimi.it/en}{Polimi}}{Erasmus+ Semester}{2022}{Milan}{Italy (top 3 engineering school)}{\begin{itemize}
+    \item Studied reinforcement learning and software development (Vue.js).
 \end{itemize}}
-\cventry{2018-2020}{Preparatory classes}{\href{https://www.bginette.com}{Lycée Sainte-Geneviève (top 3 school)}}{Versailles}{France}{\begin{itemize}
+\cventry{\href{https://www.bginette.com}{Lycée Sainte-Geneviève}}{Preparatory classes}{2018--2020}{Versailles}{France (top 3 preparatory classes)}{\begin{itemize}
     \item MPSI/MP: two-year undergraduate intensive course in mathematics and physics.
 \end{itemize}}
-
+\section{Projects}
+\cvitem{\href{https://crossfilterui.accoumar.fr/\#playground-button}{CrossFilterUI}}{I enjoy building apps that solve daily problems. Lightweight UI to explore SQL databases with dynamic filters and shareable links. \href{https://crossfilterui.accoumar.fr/\#playground-button}{Try it here.}}
+\cvitem{\href{https://labelizer.accoumar.fr/}{Triplet labelizer}}{I enjoy building minimal, effective tools. Built an app to label triplets for ML, used to train \href{https://blog.accoumar.fr/building-a-3-d-similarity-model-for-cad-designs/}{a CAD 3D encoder} with triplet loss. \href{https://labelizer.accoumar.fr/}{Try it here.}}
 
 \section{Skills}
-
-\cvitem{Programming}{Python, Go, C, Rust, Svelte.}
-\cvitem{Data tools}{PyTorch, TensorFlow, Sklearn, W\&B, SQL, Spark, Dask, Docker, Kubernetes.}
+\cvitem{Programming}{Python, C, Rust, Svelte, React, Docker.}
 \cvitem{Languages}{French (native), English (C1, TOEFL iBT : 102/120), Spanish (B1), Italian (A2).}
 
-\section{Interests}
-
-\cvitem{Hobbies}{Drums, travelling, open-source, linux, cybersecurity.}
-\cvitem{Sports}{Trail-running (ultramarathon), cycling, soccer (10 years, played in an academy).}
+\cvitem{Sports}{Soccer (10 years, sports-study program), running (ultra-trails), cycling.}
 
 \cvitem{Associative}{
 Designer of the RAID trails and race director for 2 years.
-The \href{https://www.raidisae.fr/}{RAID ISAE} is a multi-sport event featuring mountain biking, trail running, and canoeing, with over 500 competitors.
+The RAID ISAE is a multi-sport event featuring mountain biking, trail running, and canoeing, with over 500 competitors.
 }
                
 \end{document}
